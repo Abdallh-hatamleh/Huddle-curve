@@ -56,6 +56,7 @@ nav svg {
     padding: 1.38em 4.95em;
     border-radius: 50px;
     margin-bottom: 10em;
+    font-weight: 600;
 }
 
 .hero svg {
@@ -125,6 +126,7 @@ nav svg {
     justify-content: center;
     align-items: center;
     width: 100vw;
+    font-weight: 600;
 }
 
 .card-btn .button {
@@ -142,8 +144,74 @@ footer .edge {
 
 footer {
       background-color: #00252e;
+    color: white;
+
 }
 
 footer .logo {
     filter: brightness(0) saturate(100%) invert(96%) sepia(3%) saturate(10%) hue-rotate(58deg) brightness(108%) contrast(100%);
+}
+
+footer p {
+    width: 350px;
+}
+
+.row {
+    display: flex;
+    column-gap: 24px;
+    margin-top: 2em;
+    align-items: center;
+}
+
+.row-margin {
+    margin-top: 6.66em;
+    margin-bottom: 8.58em;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.col .logo {
+    margin-bottom: 2.25em;
+}
+
+footer .edge {
+    width: 100vw;
+}
+
+.col-l {
+    margin-left: 10em;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 10.16em;
+}
+
+.col-r  {
+    margin-right: 10em;
+}
+.col-r h2{
+    margin-bottom: 1.33em;
+}
+
+.col-r p {
+    width: 375px;
+}
+
+input {
+    width: 350px;
+    height: 48px;
+    border-radius: 6px;
+}
+
+footer .button {
+    padding: 1em 3.41em;
+    background-color: #fd53c0;
+    border-radius: 5px;
 }
