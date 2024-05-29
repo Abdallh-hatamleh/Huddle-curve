@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.headers {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6.5em;
+    margin-bottom: 18.75em;
+}
+
+nav .button {
+    text-align: center;
+    border: hsl(322, 100%, 66%) 1px solid;
+    color: hsl(322, 100%, 66%);
+    padding: 0.5em 1.5em;
+    border-radius: 50px;
+    margin-right: 5.25em;
+}
+
+nav svg {
+    margin-left: 5.25em;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start ;
+}
+
+.hero h1 {
+    text-align: center;
+    margin-bottom: 2.17em;
+}
+
+.hero p {
+    width: 475px;
+    text-align: center;
+    margin-bottom: 4.08em;
+}
+
+.hero .button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 1.38em 4.95em;
+    border-radius: 50px;
+    margin-bottom: 10em;
+}
+
+.hero svg {
+    margin-bottom: 10em;
+}
+.diagram {
+    display: flex;
+    margin: auto auto;
+    justify-content: space-evenly;
+    margin-bottom: 11.08em;
+}
+
+.diagram h1 {
+    font-size: 5rem ;
+}
+
+.grow-together-bg {
+    background-color: #f6fbff;
+    margin-bottom: 8.58em;
+}
+
+.grow-together-bg .edge  {
+    background-color: white;
+    width: 100vw;
+    height: 156.5px;
+}
+
+.crop {
+    height: 100px;
+    overflow: hidden;
+}
+.grow-together {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: min-content;
+}
+
+.grow-together img {
+    width: 40vw;
+}
+
+.card p {
+    margin-top: 1em;
+    width: 500px;
+}
+
+.flowing {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: min-content;
+}
+
+.flowing img {
+    width: 40vw;
+}
+
+.crop2 {
+    height: 150px;
+}
+
+.card-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.card-btn .button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 1.38em 4.95em;
+    border-radius: 50px;
+    margin-top: 3.5em;
+    margin-bottom:  14.83em;
+}
+
+footer .edge {
+    background-color: white;
+}
+
+footer {
+      background-color: #00252e;
+}
+
+footer .logo {
+    filter: brightness(0) saturate(100%) invert(96%) sepia(3%) saturate(10%) hue-rotate(58deg) brightness(108%) contrast(100%);
+}
