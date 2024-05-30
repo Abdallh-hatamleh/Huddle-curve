@@ -15,8 +15,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 6.5em;
-    margin-bottom: 18.75em;
+    margin: 6.5em 5.25em 18.75em 5.25em;
 }
 
 nav .button {
@@ -25,11 +24,6 @@ nav .button {
     color: hsl(322, 100%, 66%);
     padding: 0.5em 1.5em;
     border-radius: 50px;
-    margin-right: 5.25em;
-}
-
-nav svg {
-    margin-left: 5.25em;
 }
 
 .hero {
@@ -214,4 +208,23 @@ footer .button {
     padding: 1em 3.41em;
     background-color: #fd53c0;
     border-radius: 5px;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px)
+{
+
+    nav svg {
+        transform: scale(0.5);
+    }
+
+    nav .button {
+        font-size: 9.4px;
+    }
+
+    nav {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
 }
